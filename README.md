@@ -22,4 +22,12 @@ Klikneme levým na _Git Bash Here_, které zde po úspěšné instalaci Gitu př
 Otevře se nám okno Git Bash. V tomto okně pracujeme s Gitem, sem zadáváme příkazy uvedené níže. 
 
 ### Nastavíme Git
+Zaregistrujeme se, řeknete Gitu, kdo jste.  
+Uvedeme jméno a email, kterým jsme registrovaní na github.com. 
+```
+git config --global user.name "MojeJmeno"
+git config --global user.email "muj@email.xy“
+```
+
+---
 
