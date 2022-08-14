@@ -77,12 +77,12 @@ git commit -m "třetí komentář"
 ### Zkontrolujeme stav
 Stav projektu - zda se něco změnilo a není připravené k uložení,  
 nebo zda se něco změnilo a je připravené k uložení,  
-nebo zda se nic nezměnilo - si zkontrolujeme už známým 
+nebo zda se nic nezměnilo - si zkontrolujeme už známým:
 ```
 git status
 ```
 
-A na historii změn a vývoj projektu se podíváme pomocí  
+A na historii změn a vývoj projektu se podíváme pomocí:
 ```
 git log
 ```
@@ -99,7 +99,7 @@ Ke starší verzi souboru se můžeme vrátit pomocí příkazu _git checkout_ a
 Číslo verze najdeme ve výpisu po zadání už známého příkazu _git log_, podle komentářů se výpisu můžeme orientovat.  
 ```
 git log
-git checkout 9db5bdb
+git checkout b273981
 ```
 
 Zpět k poslední verzi projektu se můžeme vrátit pomocí:
@@ -138,23 +138,18 @@ V Gitu zadáme odkaz na vzdálený server, na konkrétní repozitář a vytvoř�
 ```
 git remote add origin https://github.com/mojejmeno/mujnazevreporitare.git
 ```
-
-
-
-
+Větev v GitHubu si přejmenujeme z _main_ na _master_, pokud chceme a  
+nahrajeme soubory i s historií změn z našeho počítače na server GitHub, zadáme  
+v Gitu: 
+```
 git push -u origin master
+```
+Poprvé po nás možná bude chtít přihlášení do GitHubu.  
 
-
-
-Zadáme jméno a (heslo?) na GitHub.  
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Na projektu pracujeme v počítači a projekt i s v Gitu zaznamenanými změnami pošele na GutHub:
+```
 git push origin master
-
-git branch -M main
-
-
-git remote add origin https://github.com/oskarulrich/UkazkaVerzovani.git
+```
 
 
 
