@@ -146,7 +146,7 @@ git push -u origin master
 ```
 Poprvé po nás možná bude chtít přihlášení do GitHubu.  
 
-Na projektu pracujeme v počítači a projekt i s v Gitu zaznamenanými změnami pošele na GutHub:
+Na projektu pracujeme v počítači a projekt i s v Gitu zaznamenanými změnami pošele na GitHub:
 ```
 git push origin master
 ```
