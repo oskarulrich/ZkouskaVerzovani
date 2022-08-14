@@ -1,1 +1,1 @@
-C# je nejlepší programovací jazyk.
+Java je nejlepší programovací jazyk.
