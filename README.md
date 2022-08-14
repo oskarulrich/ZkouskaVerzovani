@@ -31,3 +31,17 @@ git config --global user.email "muj@email.xy“
 
 ---
 
+## Pracujeme s Gitem
+
+### Zaktivujeme projekt v Gitu
+Připravíme vytvoření nového repositáře pro nový projekt.  
+Můžem to provést i ve složce s už rozpracovaným projektem. 
+```
+git init
+```
+
+Můžeme zkontrolovat změny:
+```
+git status
+```
+
