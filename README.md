@@ -138,22 +138,22 @@ V Gitu zadáme odkaz na vzdálený server, na konkrétní repozitář a vytvoř�
 ```
 git remote add origin https://github.com/mojejmeno/mujnazevreporitare.git
 ```
-Větev v GitHubu si přejmenujeme z _main_ na _master_, pokud chceme a  
+Větev v GitHubu si přejmenujeme z _main_ na _master_, pokud chceme, a  
 nahrajeme soubory i s historií změn z našeho počítače na server GitHub, zadáme  
 v Gitu: 
 ```
 git push -u origin master
 ```
-Poprvé po nás možná bude chtít přihlášení do GitHubu.  
+Možná po nás bude chtít přihlášení do GitHubu.  
 
 Na projektu pracujeme v počítači a projekt i s v Gitu zaznamenanými změnami pošele na GitHub:
 ```
 git push origin master
 ```
+Nebo...  
+na projektu pracujeme na GitHubu a projekt si i se zaznamenanými změnami stáhneme do počítače:
+```
+git pull origin master
+```
 
-
-
-
-
-
-
+---
