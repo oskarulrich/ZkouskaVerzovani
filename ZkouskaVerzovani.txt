@@ -1,2 +1,0 @@
-Java je nejlepší programovací jazyk.
-Python je také hodně dobrý jazyk.
